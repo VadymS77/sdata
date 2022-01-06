@@ -1,0 +1,25 @@
+{
+  "Version": "1.0",
+  "Name": "Git TM1",
+  "Settings": {
+    "Performance": {
+      "MTQ": {
+        "MTFeedersAtStartup": false
+      }
+    }
+  },
+  "Files": [
+        "D:\\TM1_Models\\PROD\\LOG\\git_applications\\*"
+	],
+  "Ignore": [
+    "Cubes",
+    "Processes",
+    "Dimensions",
+	"!Dimensions('}ApplicationEntries')"
+  ],
+  "Deployment": {},
+  "PrePull": [],
+  "PostPull": [],
+  "PrePush": [],
+  "PostPush": []
+}
