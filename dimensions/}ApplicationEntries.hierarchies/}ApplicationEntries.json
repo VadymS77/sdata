@@ -1,0 +1,42 @@
+{
+	"@type":"Hierarchy",
+	"Name":"}ApplicationEntries",
+	"Elements":
+	[
+		{
+			"Name":"New Folder\\git_model_application_update.csv.blob",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"New Folder\\Default.view",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"New Folder",
+			"Type":"Consolidated"
+		},
+		{
+			"Name":"}Applications",
+			"Type":"Consolidated"
+		}
+	],
+	"Edges":
+	[
+		{
+			"ParentName":"New Folder",
+			"ComponentName":"New Folder\\Default.view",
+			"Weight":0
+		},
+		{
+			"ParentName":"New Folder",
+			"ComponentName":"New Folder\\git_model_application_update.csv.blob",
+			"Weight":0
+		},
+		{
+			"ParentName":"}Applications",
+			"ComponentName":"New Folder",
+			"Weight":0
+		}
+	],
+	"Subsets@Code.links":[]
+}
